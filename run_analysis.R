@@ -2,7 +2,6 @@ nicenames <- function(x, pattern, replacement,...){
   for(i in 1:length(pattern)){
     x <- gsub(pattern[i], replacement[i], x, ignore.case = TRUE,...)
   }
-  ##x <- tolower(sapply(x, substr,2 ,length(x)))
   x
 }
 
@@ -32,7 +31,7 @@ from <- c("\\(","\\)","-","acc","std","bodybody","mag","freq","gyro")
 to <- c("","","","acceleration","standarddeviation","body","magnitude","frequency","gyroscope")
 
 
-columnsOfInterest$V2 <- sapply(columnsOfInterest$V2, nicenames,from,to)
+columnsOfInterest$V2 <- tolower(sapply(columnsOfInterest$V2, nicenames,from,to))
 
 columnsOfInterest <- rbind(data.frame(V1 = 562, V2= "activity"),columnsOfInterest)  ##4 Create a regular expression to adjust names
 colnames(dataOfInterest) <- columnsOfInterest$V2
@@ -46,4 +45,4 @@ dataOfInterest <- cbind(subjectsSet,dataOfInterest)
 
 subjectActivityMeanSet<- dataOfInterest %>% group_by(subject,activity) %>% summarise_each(funs(mean))
 
-write.table(subjectActivityMeanSet,"CourseProject.txt",row.names = FALSE)
+write.table(subjectActivityMeanSet,"tidydata.txt", row.names = FALSE)
