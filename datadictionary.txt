@@ -1,0 +1,251 @@
+1 subject :
+	Variable class: integer
+	Ranging from 1 to 30
+2 Activity :  
+	Variable class : character
+	1 WALKING
+	2 WALKING_UPSTAIRS
+	3 WALKING_DOWNSTAIRS
+	4 SITTING
+	5 STANDING
+	6 LAYING
+3 fbodyaccelerationjerkmagnitudemean : 
+	 Variable class : integer 
+	 value range between -1 and 1
+4 fbodyaccelerationjerkmagnitudemeanfrequency : 
+	 Variable class : integer 
+	 value range between -1 and 1
+5 fbodyaccelerationjerkmagnitudestandarddeviation : 
+	 Variable class : integer 
+	 value range between -1 and 1
+6 fbodyaccelerationjerkmeanfrequencyx : 
+	 Variable class : integer 
+	 value range between -1 and 1
+7 fbodyaccelerationjerkmeanfrequencyy : 
+	 Variable class : integer 
+	 value range between -1 and 1
+8 fbodyaccelerationjerkmeanfrequencyz : 
+	 Variable class : integer 
+	 value range between -1 and 1
+9 fbodyaccelerationjerkmeanx : 
+	 Variable class : integer 
+	 value range between -1 and 1
+10 fbodyaccelerationjerkmeany : 
+	 Variable class : integer 
+	 value range between -1 and 1
+11 fbodyaccelerationjerkmeanz : 
+	 Variable class : integer 
+	 value range between -1 and 1
+12 fbodyaccelerationjerkstandarddeviationx : 
+	 Variable class : integer 
+	 value range between -1 and 1
+13 fbodyaccelerationjerkstandarddeviationy : 
+	 Variable class : integer 
+	 value range between -1 and 1
+14 fbodyaccelerationjerkstandarddeviationz : 
+	 Variable class : integer 
+	 value range between -1 and 1
+15 fbodyaccelerationmagnitudemean : 
+	 Variable class : integer 
+	 value range between -1 and 1
+16 fbodyaccelerationmagnitudemeanfrequency : 
+	 Variable class : integer 
+	 value range between -1 and 1
+17 fbodyaccelerationmagnitudestandarddeviation : 
+	 Variable class : integer 
+	 value range between -1 and 1
+18 fbodyaccelerationmeanfrequencyx : 
+	 Variable class : integer 
+	 value range between -1 and 1
+19 fbodyaccelerationmeanfrequencyy : 
+	 Variable class : integer 
+	 value range between -1 and 1
+20 fbodyaccelerationmeanfrequencyz : 
+	 Variable class : integer 
+	 value range between -1 and 1
+21 fbodyaccelerationmeanx : 
+	 Variable class : integer 
+	 value range between -1 and 1
+22 fbodyaccelerationmeany : 
+	 Variable class : integer 
+	 value range between -1 and 1
+23 fbodyaccelerationmeanz : 
+	 Variable class : integer 
+	 value range between -1 and 1
+24 fbodyaccelerationstandarddeviationx : 
+	 Variable class : integer 
+	 value range between -1 and 1
+25 fbodyaccelerationstandarddeviationy : 
+	 Variable class : integer 
+	 value range between -1 and 1
+26 fbodyaccelerationstandarddeviationz : 
+	 Variable class : integer 
+	 value range between -1 and 1
+27 fbodygyroscopejerkmagnitudemean : 
+	 Variable class : integer 
+	 value range between -1 and 1
+28 fbodygyroscopejerkmagnitudemeanfrequency : 
+	 Variable class : integer 
+	 value range between -1 and 1
+29 fbodygyroscopejerkmagnitudestandarddeviation : 
+	 Variable class : integer 
+	 value range between -1 and 1
+30 fbodygyroscopemagnitudemean : 
+	 Variable class : integer 
+	 value range between -1 and 1
+31 fbodygyroscopemagnitudemeanfrequency : 
+	 Variable class : integer 
+	 value range between -1 and 1
+32 fbodygyroscopemagnitudestandarddeviation : 
+	 Variable class : integer 
+	 value range between -1 and 1
+33 fbodygyroscopemeanfrequencyx : 
+	 Variable class : integer 
+	 value range between -1 and 1
+34 fbodygyroscopemeanfrequencyy : 
+	 Variable class : integer 
+	 value range between -1 and 1
+35 fbodygyroscopemeanfrequencyz : 
+	 Variable class : integer 
+	 value range between -1 and 1
+36 fbodygyroscopemeanx : 
+	 Variable class : integer 
+	 value range between -1 and 1
+37 fbodygyroscopemeany : 
+	 Variable class : integer 
+	 value range between -1 and 1
+38 fbodygyroscopemeanz : 
+	 Variable class : integer 
+	 value range between -1 and 1
+39 fbodygyroscopestandarddeviationx : 
+	 Variable class : integer 
+	 value range between -1 and 1
+40 fbodygyroscopestandarddeviationy : 
+	 Variable class : integer 
+	 value range between -1 and 1
+41 fbodygyroscopestandarddeviationz : 
+	 Variable class : integer 
+	 value range between -1 and 1
+42 subject : 
+	 Variable class : integer 
+	 value range between -1 and 1
+43 tbodyaccelerationjerkmagnitudemean : 
+	 Variable class : integer 
+	 value range between -1 and 1
+44 tbodyaccelerationjerkmagnitudestandarddeviation : 
+	 Variable class : integer 
+	 value range between -1 and 1
+45 tbodyaccelerationjerkmeanx : 
+	 Variable class : integer 
+	 value range between -1 and 1
+46 tbodyaccelerationjerkmeany : 
+	 Variable class : integer 
+	 value range between -1 and 1
+47 tbodyaccelerationjerkmeanz : 
+	 Variable class : integer 
+	 value range between -1 and 1
+48 tbodyaccelerationjerkstandarddeviationx : 
+	 Variable class : integer 
+	 value range between -1 and 1
+49 tbodyaccelerationjerkstandarddeviationy : 
+	 Variable class : integer 
+	 value range between -1 and 1
+50 tbodyaccelerationjerkstandarddeviationz : 
+	 Variable class : integer 
+	 value range between -1 and 1
+51 tbodyaccelerationmagnitudemean : 
+	 Variable class : integer 
+	 value range between -1 and 1
+52 tbodyaccelerationmagnitudestandarddeviation : 
+	 Variable class : integer 
+	 value range between -1 and 1
+53 tbodyaccelerationmeanx : 
+	 Variable class : integer 
+	 value range between -1 and 1
+54 tbodyaccelerationmeany : 
+	 Variable class : integer 
+	 value range between -1 and 1
+55 tbodyaccelerationmeanz : 
+	 Variable class : integer 
+	 value range between -1 and 1
+56 tbodyaccelerationstandarddeviationx : 
+	 Variable class : integer 
+	 value range between -1 and 1
+57 tbodyaccelerationstandarddeviationy : 
+	 Variable class : integer 
+	 value range between -1 and 1
+58 tbodyaccelerationstandarddeviationz : 
+	 Variable class : integer 
+	 value range between -1 and 1
+59 tbodygyroscopejerkmagnitudemean : 
+	 Variable class : integer 
+	 value range between -1 and 1
+60 tbodygyroscopejerkmagnitudestandarddeviation : 
+	 Variable class : integer 
+	 value range between -1 and 1
+61 tbodygyroscopejerkmeanx : 
+	 Variable class : integer 
+	 value range between -1 and 1
+62 tbodygyroscopejerkmeany : 
+	 Variable class : integer 
+	 value range between -1 and 1
+63 tbodygyroscopejerkmeanz : 
+	 Variable class : integer 
+	 value range between -1 and 1
+64 tbodygyroscopejerkstandarddeviationx : 
+	 Variable class : integer 
+	 value range between -1 and 1
+65 tbodygyroscopejerkstandarddeviationy : 
+	 Variable class : integer 
+	 value range between -1 and 1
+66 tbodygyroscopejerkstandarddeviationz : 
+	 Variable class : integer 
+	 value range between -1 and 1
+67 tbodygyroscopemagnitudemean : 
+	 Variable class : integer 
+	 value range between -1 and 1
+68 tbodygyroscopemagnitudestandarddeviation : 
+	 Variable class : integer 
+	 value range between -1 and 1
+69 tbodygyroscopemeanx : 
+	 Variable class : integer 
+	 value range between -1 and 1
+70 tbodygyroscopemeany : 
+	 Variable class : integer 
+	 value range between -1 and 1
+71 tbodygyroscopemeanz : 
+	 Variable class : integer 
+	 value range between -1 and 1
+72 tbodygyroscopestandarddeviationx : 
+	 Variable class : integer 
+	 value range between -1 and 1
+73 tbodygyroscopestandarddeviationy : 
+	 Variable class : integer 
+	 value range between -1 and 1
+74 tbodygyroscopestandarddeviationz : 
+	 Variable class : integer 
+	 value range between -1 and 1
+75 tgravityaccelerationmagnitudemean : 
+	 Variable class : integer 
+	 value range between -1 and 1
+76 tgravityaccelerationmagnitudestandarddeviation : 
+	 Variable class : integer 
+	 value range between -1 and 1
+77 tgravityaccelerationmeanx : 
+	 Variable class : integer 
+	 value range between -1 and 1
+78 tgravityaccelerationmeany : 
+	 Variable class : integer 
+	 value range between -1 and 1
+79 tgravityaccelerationmeanz : 
+	 Variable class : integer 
+	 value range between -1 and 1
+80 tgravityaccelerationstandarddeviationx : 
+	 Variable class : integer 
+	 value range between -1 and 1
+81 tgravityaccelerationstandarddeviationy : 
+	 Variable class : integer 
+	 value range between -1 and 1
+82 tgravityaccelerationstandarddeviationz : 
+	 Variable class : integer 
+	 value range between -1 and 1
